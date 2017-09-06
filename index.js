@@ -18,14 +18,13 @@ function Ferret(name, age, foodRequirements) {
   this.foodRequirements = foodRequirements;
 }
 
-function Bird(name, breed, age) {
+function Bird(name, breed) {
   this.name = name;
-  this.age = age;
-  this.foodRequirements = foodRequirements;
+  this.breed = breed;
 }
 
-function Ferret(name, breed, age) {
+function Fish(name, species, waterConditions) {
   this.name = name;
-  this.age = age;
-  this.foodRequirements = foodRequirements;
+  this.species = species;
+  this.waterConditions = waterConditions;
 }
